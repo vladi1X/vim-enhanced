@@ -17,7 +17,7 @@ used as the plugin manager
 
 2. [preservim/nerdtree](https://github.com/preservim/nerdtree) file system explorer inside of vim
 
-3. [morehetz/gruvbox](https://github.com/morhetz/gruvbox)as a custom colorscheme
+3. [morehetz/gruvbox](https://github.com/morhetz/gruvbox) as a custom colorscheme
 
 4. [itchyny/lightline](https://github.com/itchyny/lightline.vim) as a light and customizable statusline
 
