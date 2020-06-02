@@ -2,6 +2,10 @@
 
 #script to clone necessary github projects
 cd ~
+
+cp -a vim-enhanced/. .
+rm -rf vim-enhanced/
+
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
