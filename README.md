@@ -6,9 +6,11 @@ Feel free to use this as a kind of template to install vim quickly with some use
 ## How to install
 1. Move to your home directory
 ``cd ~``
-2. remove your ``.vimrc`` and your ``.vim`` folder is you have those
-3. clone this repository ``git clone https://github.com/vladi1X/vim-enhanced``
-4. open vim and enter ``:PluginInstall`` to install all plugins
+2. clone this repository ``git clone https://github.com/vladi1X/vim-enhanced``
+3. run the setup script with ``bash vim-enhanced/setup-script.sh``
+4. In the process you might be asked to push enter
+5. Choose if you want to keep the cloned directory
+6. test if your vimrc is working by opening vim or opening a file with vim
 
 ## Used Plugins
 
