@@ -31,9 +31,9 @@ then
     cloneNecessary
     vim -c 'PluginInstall' -c 'qa!'
 else
-    cp -r vim-enhanced/.vim .
-    cp vim-enhanced/.vimrc .
-    rm -rf vim-enhanced/*
+    cp -r vim-enhanced/.vim ~/.
+    cp vim-enhanced/.vimrc ~/.
+    rm -rf vim-enhanced
     cloneNecessary
     vim -c 'PluginInstall' -c 'qa!'
 fi
