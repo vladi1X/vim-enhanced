@@ -1,10 +1,15 @@
 #!/bin/bash
 
 cd ~
-mkdir .vim
+
+if [ -d ~/.vim ]; then
+    mkdir .vim
+fi
 
 function cloneNecessary () {
-
+#
+# clones modules which are needed for this vim configuration
+#
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
     git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
@@ -26,8 +31,8 @@ then
     cloneNecessary
     vim -c 'PluginInstall' -c 'qa!'
 else
-    mv vim-enhanced/.vim .
-    mv vim-enhanced/.vimrc .
+    cp -r vim-enhanced/.vim .
+    cp vim-enhanced/.vimrc .
     rm -rf vim-enhanced/
     cloneNecessary
     vim -c 'PluginInstall' -c 'qa!'
