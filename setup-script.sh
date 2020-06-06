@@ -2,7 +2,7 @@
 
 cd ~
 
-if [ -d ~/.vim ]; then
+if [ ! -d ~/.vim ]; then
     mkdir .vim
 fi
 
@@ -33,7 +33,7 @@ then
 else
     cp -r vim-enhanced/.vim .
     cp vim-enhanced/.vimrc .
-    rm -rf vim-enhanced/
+    rm -rf vim-enhanced/*
     cloneNecessary
     vim -c 'PluginInstall' -c 'qa!'
 fi
