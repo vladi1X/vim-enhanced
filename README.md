@@ -8,8 +8,8 @@ Feel free to use this as a kind of template to install vim quickly with some use
 ``cd ~``
 2. clone this repository ``git clone https://github.com/vladi1X/vim-enhanced``
 3. run the setup script with ``bash vim-enhanced/setup-script.sh``
-4. In the process you might be asked to push enter
-5. Choose if you want to keep the cloned directory
+4. Choose if you want to keep the cloned directory
+5. In the process you might be asked to push enter
 6. test if your vimrc is working by opening vim or opening a file with vim
 
 ## Used Plugins
